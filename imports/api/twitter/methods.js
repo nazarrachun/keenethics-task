@@ -14,8 +14,8 @@ export const getUserTimeline = new ValidatedMethod({
       const oauth = new OAuth.OAuth(
         'https://api.twitter.com/oauth/request_token',
         'https://api.twitter.com/oauth/access_token',
-        'sZv82NnXEfdT1Egd8EBAA0McA',
-        'GslTJZA3n0QRb64qhLAGdatpMwhTrdwNNtKXIr0OcDeULzl475',
+        'T0AIn3uFspC4Dt37L7vvgFTIg',
+        'X3DaFkUZHOuNM52Sw5esGhWE9Rth6xyTolAj3IotwGdC2VlRns',
         '1.0A',
         null,
         'HMAC-SHA1'
@@ -25,8 +25,8 @@ export const getUserTimeline = new ValidatedMethod({
       try {
         const response = request(
           `https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=${userName}`,
-          '960915317521354752-5InLoh1ZdjV6B8AjqRpa4PLQ5yodcb0',
-          'tRDtku3ZFZ8IlqnYqCalliWRfYPv3AEcmOX7e68rwnG86'
+          '902153317215817728-9vfRVQjnGgw8a7mk2ms2dnKV7SrnuN0',
+          '0UN4A9j78gIx5X5Y1BR2hyvwdQkTpQXgQK31l1t8cISJg'
         );
         return JSON.parse(response);
       } catch (e) {
