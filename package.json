@@ -1,0 +1,20 @@
+{
+  "name": "twitter-timelines",
+  "description": "timelines",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nazar Rachun",
+  "license": "ISC",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "classnames": "^2.2.5",
+    "history": "^3.0.0",
+    "oauth": "^0.9.15",
+    "querystring": "^0.2.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-router-dom": "^4.0.0-beta.6"
+  }
+}
