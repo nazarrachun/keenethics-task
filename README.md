@@ -1,7 +1,7 @@
 # Keenethics test task
 
 ## How to run
-1. cd <project>
+1. cd project-path
 2. meteor
 
 ## Link
